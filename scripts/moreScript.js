@@ -25,10 +25,16 @@ window.onload = () => {
   const block = document.createElement("div");
   block.classList.add("info__place");
   let url = manga.picture_url;
-  let characters = manga.characters.map((value) => {
-    return value.name;
-  });
-  characters = characters.join("<br>");
+  let characters;
+
+  if (Array.isArray(manga.characters)) {
+    let characters = manga.characters.map((value) => {
+      return value.name;
+    });
+    characters = characters.join("<br>");
+  } else {
+    characters = "none";
+  }
   let title = manga.alternative_titles.english == undefined ? (manga.alternative_titles.synonyms == undefined ? manga.alternative_titles.japanese : manga.alternative_titles.synonyms.split(",")[0]) : manga.alternative_titles.english;
   let author = manga.information.authors
     .map((value) => {
