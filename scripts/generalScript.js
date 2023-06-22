@@ -9,7 +9,7 @@ header__acc__block.addEventListener("click", () => {
   } else {
     if (window.location.href.indexOf("login") == -1 && window.location.href.indexOf("signup") == -1) {
       Swal.fire({
-        title: "Youre doesn't login",
+        title: "Youre not logged in",
         confirmButtonText: "OK",
       }).then((result) => {
         window.location.href = "../html/login.html";
@@ -25,7 +25,7 @@ header__cart__block.addEventListener("click", () => {
   } else {
     if (window.location.href.indexOf("login") == -1 && window.location.href.indexOf("signup") == -1) {
       Swal.fire({
-        title: "Youre doesn't login",
+        title: "Youre not logged in",
         confirmButtonText: "OK",
       }).then((result) => {
         window.location.href = "../html/login.html";

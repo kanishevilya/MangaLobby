@@ -197,7 +197,7 @@ function print(array = arr) {
     manga__price.addEventListener("click", (e) => {
       if (JSON.parse(localStorage.getItem("CurrentUser")) == null) {
         Swal.fire({
-          title: "Youre doesn't login",
+          title: "Youre not logged in",
           confirmButtonText: "OK",
         }).then((e) => {});
         return;
