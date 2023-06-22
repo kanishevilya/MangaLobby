@@ -1,0 +1,138 @@
+section {
+  /* height: 866px; */
+  width: 1440px;
+
+  background-image: url("../images/more__page/morePageBCK.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.info__place {
+  width: 1048px;
+  /* height: 868px; */
+
+  background: #fffaf2;
+
+  display: flex;
+}
+.manga__img {
+  border: 2px solid #3c2a21;
+  border-radius: 16px;
+
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.characters__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #65647c;
+
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.characters {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #65647c;
+
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.rigth__part {
+  width: 750px;
+  /* height: 720px; */
+  margin-left: 45px;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #3c2a21;
+
+  padding-top: 40px;
+}
+
+.author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #a7727d;
+}
+
+.synopsis {
+  width: 645px;
+  min-height: 565px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 39px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #3c2a21;
+}
+.btn {
+  margin-left: 100px;
+  margin-bottom: 40px;
+  width: 245px;
+  height: 61px;
+
+  border: 3px solid #ff6585;
+  border-radius: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 220%;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ff6585;
+}
+
+.btn:hover {
+  background-color: #ff6585;
+  color: white;
+
+  transition: 0.1s;
+}

@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+}
+
+section {
+  width: 1440px;
+  background-color: #eddbc7;
+}
+.central__section {
+  width: 360px;
+  height: 800px;
+  background: #f8ead8;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #ff6585;
+
+  padding-top: 119px;
+}
+
+.inputs {
+  /* margin: 0 auto; */
+
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputs--f {
+  height: 124px;
+  margin-top: 43px;
+}
+
+.inputs .input--design {
+  width: 312px;
+  height: 48px;
+
+  background: #fff4e5;
+  border: 1px solid #3c2a21;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email,
+.password,
+.name {
+  width: 312px;
+  height: 48px;
+
+  padding-left: 4px;
+  box-sizing: border-box;
+
+  background-color: rgba(0, 0, 0, 0);
+
+  border: none;
+  outline: none;
+
+  color: #3c2a21;
+}
+.email::placeholder,
+.password::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.7);
+}
+.email :focus,
+.password :focus {
+  outline: none;
+}
+
+.button {
+  width: 312px;
+  height: 48px;
+
+  border: none;
+
+  background: rgba(60, 42, 33, 0.8);
+  border-radius: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+}
+
+.login {
+  /* margin: 0 auto; */
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: white;
+  color: rgba(60, 42, 33, 0.8);
+  transition: 0.1s;
+  border: 2px solid rgba(60, 42, 33, 0.8);
+}
+
+.addition {
+  display: flex;
+  justify-content: space-between;
+
+  /* margin: 0 auto; */
+}
+.addition--f {
+  width: 230px;
+  margin-top: 16px;
+}
+
+.addition__txt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #3c2a21;
+}
+
+.addition__link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ff6585;
+}
+
+.inputs--s {
+  height: 200px;
+  margin-top: 48px;
+}
+
+.signup {
+  margin-top: 29px;
+}
+
+.addition--s {
+  width: 232px;
+  margin-top: 22px;
+}
+
+.back__to__home {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ff6585;
+
+  padding-top: 35px;
+}

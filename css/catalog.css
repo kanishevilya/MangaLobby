@@ -1,0 +1,359 @@
+section {
+  width: 1440px;
+  /* height: 100px; */
+  /* height: auto; */
+  background: linear-gradient(90deg, #f68989 -70.76%, #fffaf2 20.95%, #fffaf2 100.03%), #ffffff;
+  display: flex;
+}
+
+.left__part {
+  width: 280px;
+  height: 308px;
+
+  margin-top: 56px;
+  margin-left: 62px;
+  margin-bottom: 56px;
+}
+
+.right__part {
+  width: 1015px;
+
+  margin-left: 60px;
+  margin-top: 56px;
+}
+.left__price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #3c2a21;
+}
+.line {
+  width: 280px;
+  height: 2px;
+
+  background: #675d50;
+
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.prices {
+  width: 280px;
+
+  display: flex;
+
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #675d50;
+}
+
+.left__input__price,
+.right__input__price {
+  width: 77px;
+  height: 33px;
+  outline: none;
+  border: none;
+
+  margin-left: 9px;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+  background-color: #8fa38e;
+  border-radius: 3px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+.left__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 278px;
+  height: 44px;
+
+  background: #675d50;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  margin-top: 23px;
+
+  border: 2px solid #675d50;
+  border-radius: 3px;
+}
+
+.left__btn:hover {
+  color: #675d50;
+  background-color: white;
+
+  transition: 0.1s;
+}
+.left__name {
+  width: 280px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #3c2a21;
+
+  margin-top: 19px;
+}
+
+.left__input__name {
+  width: 216px;
+  height: 33px;
+
+  outline: none;
+  border: none;
+
+  margin-left: 9px;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+  background-color: #675d50;
+  border-radius: 3px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+.left__genre {
+  width: 280px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #3c2a21;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select__genre {
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #ff6585;
+
+  border: 1px solid #ff6585;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  outline: none;
+}
+
+.right__sort__by__price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #3c2a21;
+}
+.right__price__select {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #e61f5a;
+
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+.right__price__select option {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #e61f5a;
+}
+
+.upper__part {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right__show__by__cnt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #3c2a21;
+}
+
+.right__cnt__select {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #e61f5a;
+
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+.right__cnt__select option {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #e61f5a;
+}
+
+.manga__list {
+  width: 1020px;
+
+  margin-top: 43px;
+  row-gap: 60px;
+  column-gap: 19px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 90px;
+}
+
+.list__block {
+  height: 600px;
+  width: 326px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.forImg {
+  width: 326px;
+  height: 437px;
+
+  background: #ffffff;
+  border: 1px solid #eae8df;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__img {
+  height: 350px;
+}
+.block__img:hover {
+  scale: calc(1.15);
+  border-radius: 10px;
+  transition: 0.1s;
+}
+
+.manga__name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #65647c;
+
+  padding-top: 24px;
+}
+.manga__author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #888888;
+
+  padding-top: 11px;
+}
+
+.manga__links {
+  width: 300px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #e61f5a;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 13px;
+
+  cursor: pointer;
+}
+.more__page {
+  text-decoration: none;
+  color: #e61f5a;
+}
+
+.manga__price:hover,
+.more__page:hover {
+  color: dodgerblue;
+  transition: 0.1s;
+}

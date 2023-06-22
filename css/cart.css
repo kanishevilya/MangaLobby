@@ -1,0 +1,197 @@
+section {
+  width: 1440px;
+  background-color: #fffaf2;
+}
+
+.order {
+  width: 814px;
+  height: 304px;
+
+  background: linear-gradient(270deg, rgba(211, 211, 211, 0.8) 46.78%, rgba(214, 214, 214, 0) 100%);
+  border-radius: 15px;
+  margin-bottom: 40px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.order:hover {
+  scale: calc(1.1);
+  transition: 0.1s;
+  background: linear-gradient(270deg, #bed7be 46.78%, rgba(214, 214, 214, 0) 100%);
+}
+
+.manga__list {
+  width: 814px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.order__img {
+  border-radius: 16px;
+  height: 304px;
+  object-fit: contain;
+}
+.order__main {
+  width: 300px;
+  height: 254px;
+  margin-top: 28px;
+  margin-right: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* justify-content: space-between; */
+}
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #3c2a21;
+}
+.author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #a7727d;
+}
+
+.more {
+  text-decoration: none;
+  padding-top: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 20px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #65647c;
+  padding-left: 20px;
+}
+.more:hover {
+  color: royalblue;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.price {
+  width: 215px;
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #65647c;
+
+  padding-top: 50px;
+}
+
+.main__lower__part {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+}
+.count,
+.count__value,
+.plus,
+.minus {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #675d50;
+}
+.delete {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #ff6585;
+}
+.delete:hover {
+  cursor: pointer;
+  transition: 0.1s;
+  scale: calc(1.2);
+  color: royalblue;
+}
+
+.order__btn {
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 363px;
+  height: 73px;
+
+  background: #3c2a21;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  margin-bottom: 50px;
+  border: 2px solid #3c2a21;
+}
+.order__btn:hover {
+  color: #3c2a21;
+  background-color: white;
+  transition: 0.1s;
+}
+
+.plus:hover {
+  cursor: pointer;
+
+  scale: calc(2);
+  color: #ff6585;
+  transition: 0.1s;
+}
+.minus:hover {
+  cursor: pointer;
+
+  transform: scale(2);
+
+  color: #ff6585;
+  transition: 0.1s;
+}
