@@ -19,6 +19,7 @@ btnToCart.addEventListener("click", () => {
       });
     }
   }
+  //
 });
 
 const btnLogin = document.querySelector(".fourth__btn");
