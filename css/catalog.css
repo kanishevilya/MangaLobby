@@ -198,6 +198,7 @@ section {
   background-color: rgba(0, 0, 0, 0);
   border: none;
   outline: none;
+  appearance: none;
 }
 .right__price__select option {
   font-family: "Inter";
@@ -238,6 +239,7 @@ section {
   background-color: rgba(0, 0, 0, 0);
   border: none;
   outline: none;
+  appearance: none;
 }
 .right__cnt__select option {
   font-family: "Inter";
