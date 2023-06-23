@@ -28,7 +28,9 @@ window.onload = () => {
   let characters;
 
   if (Array.isArray(manga.characters)) {
-    let characters = manga.characters.map((value) => {
+    console.log(manga.characters);
+
+    characters = manga.characters.map((value) => {
       return value.name;
     });
     characters = characters.join("<br>");
